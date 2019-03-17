@@ -1,3 +1,24 @@
+## Setup
+
+Initialize and run the app: `npm install && npm start`
+
+## Existing components
+
+Look through the src/components folder. You should see three different components. We will focus on Home and About for now. Take a look inside and see that are basic components that render some text on the page. We want to be able to navigate between those components.
+
+## Router
+
+- Create a file called `Router.js` in the src folder (not in the components folder).
+- On the first line import `React` as we always do for custom components: `import React from 'react'`
+- On the second line import `Switch` and `Route` from `react-router-dom`
+- Create a _stateless_ component called `Router` and make sure you export it as default
+- The first thing we are going to do is insert the `Switch` component into our new componenet
+like this: `<Switch></Switch>`
+- The next thing we are going to do is import `App` from `App.js` and create our first route. It should
+look like this: `<Route exact path="/" component={App} />`
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

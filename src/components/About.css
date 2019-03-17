@@ -1,0 +1,12 @@
+.about {
+  display: block;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.about-list {
+  list-style: none;
+}
