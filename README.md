@@ -15,7 +15,7 @@ Look through the src/components folder. You should see three different component
 - The first thing we are going to do is insert the `Switch` component into our new componenet
 like this: `<Switch></Switch>`
 - The next thing we are going to do is import `App` from `App.js` and create our first route. It should
-look like this: `<Route exact path="/" component={App} />`
+look like this: `<Route exact path="/" component={App} />`. Place this between the `Switch` tags
 - Now, go to your `index.js` file an import the following:
   - `import { BrowserRouter } from 'react-router-dom'`
   - `import Router from './Router'`
