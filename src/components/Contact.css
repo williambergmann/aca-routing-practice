@@ -1,8 +1,8 @@
-.home {
+.contact {
   display: block;
 }
 
-.home-flex {
+.contact-flex {
   display: flex;
   justify-content: center;
 }

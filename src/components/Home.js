@@ -1,14 +1,11 @@
 import React from 'react'
-import './Home.css'
+import logo from '../logo.svg';
 
 const Home = () => (
-  <div className="home">
-    <div className="home-flex">
-      <h1>Welcome to the home page!</h1>
-    </div>
-    <div className="home-flex">
-      <p>This could be the first page users see when the enter the site</p>
-    </div>
+  <div className="App">
+    <header className="App-header">
+      <img src={logo} className="App-logo" alt="logo" />
+    </header>
   </div>
 )
 

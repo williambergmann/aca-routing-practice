@@ -1,14 +1,6 @@
-import React, { Fragment } from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Header from './components/Header'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
 
-const Complete = () => (
-  <Fragment>
-    <Header />
-    <App />
-  </Fragment>
-)
-
-ReactDOM.render(<Complete />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'))
