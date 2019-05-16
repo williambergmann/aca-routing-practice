@@ -14,15 +14,9 @@ Look through the src/components folder. You should see four different components
 - Create a _stateless_ component called `Router` and make sure you export it as default
 - The first thing we are going to do is insert the `Switch` component into our new componenet
 like this: `<Switch></Switch>`
-<<<<<<< HEAD
 - The next thing we are going to do is import `Home` from `components/Home.js` and create our first route. It should
 look like this: `<Route exact path="/" component={Home} />`
 - Now, go to your `App.js` file an import the following:
-=======
-- The next thing we are going to do is import `App` from `App.js` and create our first route. It should
-look like this: `<Route exact path="/" component={App} />`. Place this between the `Switch` tags
-- Now, go to your `index.js` file an import the following:
->>>>>>> 65f484d173c856d67fdae83a139d32f123ac3b8a
   - `import { BrowserRouter } from 'react-router-dom'`
   - `import Router from './Router'`
 - Add `<Router />` right below the Header component and replace the words `Fragment` with `BrowserRouter`. Also, remove the `<Home />` component. Reload the page. Nothing happened.. but we set the base for using our router
