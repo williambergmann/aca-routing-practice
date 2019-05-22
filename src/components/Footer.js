@@ -1,10 +1,10 @@
 import React from 'react'
-import './Header.css'
+import './Footer.css'
 import { Link } from 'react-router-dom'
 
-const Header = () => (
-  <div className="header">
-    <p>this is the header</p>
+const Footer = () => (
+  <div className="footer">
+    <p>this is the footer</p>
     <ul>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
@@ -14,4 +14,4 @@ const Header = () => (
   </div>
 )
 
-export default Header
+export default Footer
